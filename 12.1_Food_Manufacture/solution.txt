@@ -1,0 +1,85 @@
+Optimal Total Profit: £98766.67
+
+Month: Jan
+  Profit: £67500.00
+  Production: 450.00 tons
+  Purchase VEG1: 0.00 tons
+  Refine VEG1: 200.00 tons
+  Storage VEG1: 300.00 tons
+  Purchase OIL1: 0.00 tons
+  Refine OIL1: 103.33 tons
+  Storage OIL1: 396.67 tons
+  Purchase OIL3: 0.00 tons
+  Refine OIL3: 146.67 tons
+  Storage OIL3: 353.33 tons
+  Oils Used: ['VEG1', 'OIL1', 'OIL3']
+
+Month: Feb
+  Profit: £55150.00
+  Production: 450.00 tons
+  Purchase VEG2: 0.00 tons
+  Refine VEG2: 200.00 tons
+  Storage VEG2: 300.00 tons
+  Purchase OIL2: 23.33 tons
+  Refine OIL2: 230.00 tons
+  Storage OIL2: 293.33 tons
+  Purchase OIL3: 0.00 tons
+  Refine OIL3: 20.00 tons
+  Storage OIL3: 333.33 tons
+  Oils Used: ['VEG2', 'OIL2', 'OIL3']
+
+Month: Mar
+  Profit: £59383.33
+  Production: 450.00 tons
+  Purchase VEG2: 0.00 tons
+  Refine VEG2: 200.00 tons
+  Storage VEG2: 100.00 tons
+  Purchase OIL2: 0.00 tons
+  Refine OIL2: 63.33 tons
+  Storage OIL2: 230.00 tons
+  Purchase OIL3: 0.00 tons
+  Refine OIL3: 186.67 tons
+  Storage OIL3: 146.67 tons
+  Oils Used: ['VEG2', 'OIL2', 'OIL3']
+
+Month: Apr
+  Profit: £36833.33
+  Production: 450.00 tons
+  Purchase VEG1: 0.00 tons
+  Refine VEG1: 200.00 tons
+  Storage VEG1: 100.00 tons
+  Purchase OIL1: 206.67 tons
+  Refine OIL1: 103.33 tons
+  Storage OIL1: 500.00 tons
+  Purchase OIL3: 0.00 tons
+  Refine OIL3: 146.67 tons
+  Storage OIL3: 0.00 tons
+  Oils Used: ['VEG1', 'OIL1', 'OIL3']
+
+Month: May
+  Profit: £-6100.00
+  Production: 405.00 tons
+  Purchase VEG1: 55.00 tons
+  Refine VEG1: 155.00 tons
+  Storage VEG1: 0.00 tons
+  Purchase OIL2: 0.00 tons
+  Refine OIL2: 230.00 tons
+  Storage OIL2: 0.00 tons
+  Purchase OIL3: 540.00 tons
+  Refine OIL3: 20.00 tons
+  Storage OIL3: 520.00 tons
+  Oils Used: ['VEG1', 'OIL2', 'OIL3']
+
+Month: Jun
+  Profit: £-101500.00
+  Production: 450.00 tons
+  Purchase VEG2: 600.00 tons
+  Refine VEG2: 200.00 tons
+  Storage VEG2: 500.00 tons
+  Purchase OIL2: 730.00 tons
+  Refine OIL2: 230.00 tons
+  Storage OIL2: 500.00 tons
+  Purchase OIL3: 0.00 tons
+  Refine OIL3: 20.00 tons
+  Storage OIL3: 500.00 tons
+  Oils Used: ['VEG2', 'OIL2', 'OIL3']
