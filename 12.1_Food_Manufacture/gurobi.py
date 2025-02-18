@@ -96,35 +96,40 @@ for m in months:
 model.optimize()
 
 # Print results
-if model.status == GRB.OPTIMAL:
-    print(f"\n===========================")
-    print(f"Optimal Total Profit: £{model.objVal:.2f}")
-    print(f"===========================")
+with open('solution.txt', 'w') as file:
+    if model.status == GRB.OPTIMAL:
+        print(f"\n===========================")
+        print(f"Optimal Total Profit: £{model.objVal:.2f}")
+        file.write(f"Optimal Total Profit: £{model.objVal:.2f}\n")
+        print(f"===========================")
 
-    for t, m in enumerate(months):
-        # Compute monthly profit
-        revenue = sell_price * production[m].x
-        cost_oil = sum(prices[m][i] * purchase[m, oil].x for i, oil in enumerate(all_oils))
-        cost_storage = sum(storage_cost * storage[months[t - 1], oil].x for oil in all_oils) if t > 0 else 0
-        profit_t = revenue - cost_oil - cost_storage
+        for t, m in enumerate(months):
+            # Compute monthly profit
+            revenue = sell_price * production[m].x
+            cost_oil = sum(prices[m][i] * purchase[m, oil].x for i, oil in enumerate(all_oils))
+            cost_storage = sum(storage_cost * storage[months[t - 1], oil].x for oil in all_oils) if t > 0 else 0
+            profit_t = revenue - cost_oil - cost_storage
 
-        print(f"\nMonth: {m}")
-        print(f"  Profit: £{profit_t:.2f}")
-        print(f"  Production: {production[m].x:.2f} tons")
+            print(f"\nMonth: {m}")
+            print(f"  Profit: £{profit_t:.2f}")
+            print(f"  Production: {production[m].x:.2f} tons")
+            file.write(f"\nMonth: {m}\n")
+            file.write(f"  Profit: £{profit_t:.2f}\n")
+            file.write(f"  Production: {production[m].x:.2f} tons\n")
 
-        used_oils = []
-        for oil in all_oils:
-            if use[m, oil].x > 0.5:  # Used in the blend
-                used_oils.append(oil)
-                print(f"  Purchase {oil}: {purchase[m, oil].x:.2f} tons")
-                print(f"  Refine {oil}: {refine[m, oil].x:.2f} tons")
-                print(f"  Storage {oil}: {storage[m, oil].x:.2f} tons")
+            used_oils = []
+            for oil in all_oils:
+                if use[m, oil].x > 0.5:  # Used in the blend
+                    used_oils.append(oil)
+                    print(f"  Purchase {oil}: {purchase[m, oil].x:.2f} tons")
+                    print(f"  Refine {oil}: {refine[m, oil].x:.2f} tons")
+                    print(f"  Storage {oil}: {storage[m, oil].x:.2f} tons")
+                    file.write(f"  Purchase {oil}: {purchase[m, oil].x:.2f} tons\n")
+                    file.write(f"  Refine {oil}: {refine[m, oil].x:.2f} tons\n")
+                    file.write(f"  Storage {oil}: {storage[m, oil].x:.2f} tons\n")
 
-        print(f"  Oils Used: {used_oils}")
-
+            print(f"  Oils Used: {used_oils}")
+            file.write(f"  Oils Used: {used_oils}\n")
 
 file.close()
 print("\nResults saved to solution.txt ✅")
-print(f"\n===========================")
-print(f"Optimal Total Profit: £{model.objVal:.2f}")
-print(f"===========================")
