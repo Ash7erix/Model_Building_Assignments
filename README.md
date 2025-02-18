@@ -5,12 +5,14 @@ This repository contains solutions and model implementations for the exercises a
 
 ## Contents:
 - **Mathematical Model Making**: Mathematical formulations of the problems and examples in the book.
+- 
 - **Model Implementation in Gurobi**: Python code implementing the models using the Gurobi optimizer for solving optimization problems.
+- 
 - **Application Using Streamlit**: Interactive web applications built with Streamlit to visualize and interact with the mathematical models and solutions.
   
 
 ## Streamlit Dashboards:
 Below are the links to the interactive Streamlit dashboards, where you can visualize and interact with the optimization models and solutions:
 
-- [Dashboard 1: Food Manufacture Optimization](https://food-manufacture.streamlit.app/)
-- [Dashboard 2: Uploading Soon!!](https://streamlit.io/)
+1. [Food Manufacture Optimization](https://food-manufacture.streamlit.app/)
+2. [Dashboard 2: Uploading Soon!!](https://streamlit.io/)
