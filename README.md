@@ -5,9 +5,9 @@ This repository contains solutions and model implementations for the exercises a
 
 ## Contents:
 - **Mathematical Model Making**: Mathematical formulations of the problems and examples in the book.
-- 
+  
 - **Model Implementation in Gurobi**: Python code implementing the models using the Gurobi optimizer for solving optimization problems.
-- 
+  
 - **Application Using Streamlit**: Interactive web applications built with Streamlit to visualize and interact with the mathematical models and solutions.
   
 
