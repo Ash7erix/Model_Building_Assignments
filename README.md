@@ -1,0 +1,2 @@
+# Model_Building_Assignments
+Repository with solutions and models for the problems defined in 'Model Building in Mathematical Programming, Fifth Edition' by H. Paul Williams. Includes implementations of the exercises and examples from the book.
