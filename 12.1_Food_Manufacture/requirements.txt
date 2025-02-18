@@ -1,0 +1,4 @@
+streamlit
+gurobipy
+matplotlib
+pandas

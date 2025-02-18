@@ -1,0 +1,32 @@
+{
+  "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+  "veg_oils": ["VEG1", "VEG2"],
+  "oil_oils": ["OIL1", "OIL2", "OIL3"],
+  "prices": {
+    "Jan": [110, 120, 130, 110, 115],
+    "Feb": [130, 130, 110, 90, 115],
+    "Mar": [110, 140, 130, 100, 95],
+    "Apr": [120, 110, 120, 120, 125],
+    "May": [100, 120, 150, 110, 105],
+    "Jun": [90, 100, 140, 80, 135]
+  },
+  "hardness": {
+    "VEG1": 8.8, "VEG2": 6.1,
+    "OIL1": 2.0, "OIL2": 4.2, "OIL3": 5.0
+  },
+  "max_refining": {
+    "VEG1": 200, "VEG2": 200,
+    "OIL1": 250, "OIL2": 250, "OIL3": 250
+  },
+  "parameters": {
+    "refine_cap_veg": 200,
+    "refine_cap_oil": 250,
+    "storage_cap": 1000,
+    "storage_cost": 5,
+    "sell_price": 150,
+    "h_min": 3,
+    "h_max": 6,
+    "initial_stock": 500,
+    "final_stock": 500
+  }
+}
