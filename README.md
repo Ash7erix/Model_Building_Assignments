@@ -15,4 +15,5 @@ This repository contains solutions and model implementations for the exercises a
 Below are the links to the interactive Streamlit dashboards, where you can visualize and interact with the optimization models and solutions:
 
 1. [Food Manufacture Optimization](https://food-manufacture.streamlit.app/)
-2. [Dashboard 2: Uploading Soon!!](https://streamlit.io/)
+   
+2. Uploading Soon!!
