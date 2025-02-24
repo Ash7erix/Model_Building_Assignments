@@ -16,6 +16,6 @@ Below are the links to the interactive Streamlit dashboards, where you can visua
 
 1. [Food Manufacture Optimization](https://food-manufacture.streamlit.app/)
 
-2. [Food Manufacture Optimization](https://factory-planning.streamlit.app/)
+2. [Factory Planning Optimization](https://factory-planning.streamlit.app/)
    
 3. Uploading Soon!!
