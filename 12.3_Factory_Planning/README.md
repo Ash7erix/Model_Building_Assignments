@@ -40,7 +40,8 @@ $$
 4. Inventory Balance (for each product \(i\), month \(t\)):
 
 $$
-
+$$
+$$
 HPROD_{i,t-1} + MPROD_{i,t} - SPROD_{i,t} - HPROD_{i,t} = 0
 $$
 
