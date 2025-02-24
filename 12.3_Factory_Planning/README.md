@@ -1,18 +1,10 @@
 # Mathematical Formulation
-
 ## Decision Variables:
+$MPROD_{i,t} = \text{Units of product } i \text{ manufactured in month } t$
 
-$$
-MPROD_{i,t} = \text{Units of product } i \text{ manufactured in month } t
-$$
+$SPROD_{i,t} = \text{Units of product } i \text{ sold in month } t$
 
-$$
-SPROD_{i,t} = \text{Units of product } i \text{ sold in month } t
-$$
-
-$$
-HPROD_{i,t} = \text{Units of product } i \text{ held in inventory at the end of month } t
-$$
+$HPROD_{i,t} = \text{Units of product } i \text{ held in inventory at the end of month } t$
 
 ## Objective Function:
 
