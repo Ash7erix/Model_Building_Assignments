@@ -24,6 +24,7 @@ $$
 2. Market Demand Constraints (for each product \(i\), month \(t\)):
 
 $$
+
 SPROD_{i,t} \leq marketDemand_{i,t}
 $$
 
@@ -38,6 +39,7 @@ $$
 4. Inventory Balance (for each product \(i\), month \(t\)):
 
 $$
+
 HPROD_{i,t-1} + MPROD_{i,t} - SPROD_{i,t} - HPROD_{i,t} = 0
 $$
 
