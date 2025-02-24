@@ -9,7 +9,7 @@ $HPROD_{i,t} = \text{Units of product } i \text{ held in inventory at the end of
 ## Objective Function:
 
 $$
-\maximize \sum_{i,t} profit_i \cdot SPROD_{i,t} - storageCost \cdot \sum_{i,t} HPROD_{i,t}
+\text{maximize} \sum_{i,t} profit_i \cdot SPROD_{i,t} - storageCost \cdot \sum_{i,t} HPROD_{i,t}
 $$
 
 ## Subject to:
