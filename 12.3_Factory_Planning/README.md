@@ -24,7 +24,8 @@ $$
 2. Market Demand Constraints (for each product \(i\), month \(t\)):
 
 $$
-
+$$
+$$
 SPROD_{i,t} \leq marketDemand_{i,t}
 $$
 
