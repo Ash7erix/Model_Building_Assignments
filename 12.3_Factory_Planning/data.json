@@ -1,0 +1,36 @@
+{
+    "products": [1, 2, 3, 4, 5, 6, 7],
+    "months": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    "machines": ["Grinding", "VerticalDrilling", "HorizontalDrilling", "Boring", "Planing"],
+    "profit": [10, 6, 8, 4, 11, 9, 3],
+    "time_required": {
+        "Grinding": [0.5, 0.7, 0, 0, 0.3, 0.2, 0.5],
+        "VerticalDrilling": [0.1, 0.2, 0, 0.3, 0, 0.6, 0],
+        "HorizontalDrilling": [0.2, 0, 0.8, 0, 0, 0, 0.6],
+        "Boring": [0.05, 0.03, 0, 0.07, 0.1, 0, 0.08],
+        "Planing": [0, 0, 0.01, 0, 0.05, 0, 0.05]
+    },
+    "machine_availability": {
+        "Grinding": [3, 4, 4, 4, 3, 4],
+        "VerticalDrilling": [2, 2, 2, 1, 1, 2],
+        "HorizontalDrilling": [3, 1, 3, 3, 3, 2],
+        "Boring": [1, 1, 0, 1, 1, 1],
+        "Planing": [1, 1, 1, 1, 1, 0]
+    },
+    "demand":[
+             [ 0, 500, 600, 300, 200,   0, 500],
+             [ 0, 1000, 500, 600, 300, 100, 500],
+             [ 0, 300, 200,   0, 400, 500, 100],
+             [ 0, 300,   0,   0, 500, 100, 300],
+             [ 0, 800, 400, 500, 200, 1000, 1100],
+             [ 0, 200, 300, 400,   0, 300, 500],
+             [ 0, 100, 150, 100, 100,   0,  60]
+            ],
+
+    "working_days_per_month": 24,
+    "working_hours_per_day": 16,
+    "holding_cost": 0.5,
+    "total_hours_per_machine": 384,
+    "initial_inventory": 0,
+    "final_inventory": 50
+}

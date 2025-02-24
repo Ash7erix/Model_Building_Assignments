@@ -1,0 +1,70 @@
+Optimal Total Profit: £91995.18
+
+
+Month 1:
+Product 1, Manufactured = 500.0, Previously Stored = 0.0, Sold = 500.0, Held = 0.0
+Product 2, Manufactured = 888.6, Previously Stored = 0.0, Sold = 888.6, Held = 0.0
+Product 3, Manufactured = 300.0, Previously Stored = 0.0, Sold = 300.0, Held = 0.0
+Product 4, Manufactured = 300.0, Previously Stored = 0.0, Sold = 300.0, Held = 0.0
+Product 5, Manufactured = 800.0, Previously Stored = 0.0, Sold = 800.0, Held = 0.0
+Product 6, Manufactured = 200.0, Previously Stored = 0.0, Sold = 200.0, Held = 0.0
+Product 7, Manufactured = 0.0, Previously Stored = 0.0, Sold = 0.0, Held = 0.0
+Total profit for Month 1 = 24531.4
+
+
+Month 2:
+Product 1, Manufactured = 700.0, Previously Stored = 0.0, Sold = 600.0, Held = 100.0
+Product 2, Manufactured = 600.0, Previously Stored = 0.0, Sold = 500.0, Held = 100.0
+Product 3, Manufactured = 200.0, Previously Stored = 0.0, Sold = 200.0, Held = 0.0
+Product 4, Manufactured = 0.0, Previously Stored = 0.0, Sold = 0.0, Held = 0.0
+Product 5, Manufactured = 500.0, Previously Stored = 0.0, Sold = 400.0, Held = 100.0
+Product 6, Manufactured = 300.0, Previously Stored = 0.0, Sold = 300.0, Held = 0.0
+Product 7, Manufactured = 140.0, Previously Stored = 0.0, Sold = 140.0, Held = 0.0
+Total profit for Month 2 = 17970.0
+
+
+Month 3:
+Product 1, Manufactured = 0.0, Previously Stored = 100.0, Sold = 50.0, Held = 50.0
+Product 2, Manufactured = 0.0, Previously Stored = 100.0, Sold = 50.0, Held = 50.0
+Product 3, Manufactured = 0.0, Previously Stored = 0.0, Sold = 0.0, Held = 0.0
+Product 4, Manufactured = 0.0, Previously Stored = 0.0, Sold = 0.0, Held = 0.0
+Product 5, Manufactured = 0.0, Previously Stored = 100.0, Sold = 50.0, Held = 50.0
+Product 6, Manufactured = 400.0, Previously Stored = 0.0, Sold = 400.0, Held = 0.0
+Product 7, Manufactured = 0.0, Previously Stored = 0.0, Sold = 0.0, Held = 0.0
+Total profit for Month 3 = 4875.0
+
+
+Month 4:
+Product 1, Manufactured = 175.0, Previously Stored = 50.0, Sold = 200.0, Held = 25.0
+Product 2, Manufactured = 275.0, Previously Stored = 50.0, Sold = 300.0, Held = 25.0
+Product 3, Manufactured = 400.0, Previously Stored = 0.0, Sold = 400.0, Held = 0.0
+Product 4, Manufactured = 500.0, Previously Stored = 0.0, Sold = 500.0, Held = 0.0
+Product 5, Manufactured = 175.0, Previously Stored = 50.0, Sold = 200.0, Held = 25.0
+Product 6, Manufactured = 0.0, Previously Stored = 0.0, Sold = 0.0, Held = 0.0
+Product 7, Manufactured = 100.0, Previously Stored = 0.0, Sold = 100.0, Held = 0.0
+Total profit for Month 4 = 11462.5
+
+
+Month 5:
+Product 1, Manufactured = 0.0, Previously Stored = 25.0, Sold = 0.0, Held = 25.0
+Product 2, Manufactured = 87.5, Previously Stored = 25.0, Sold = 100.0, Held = 12.5
+Product 3, Manufactured = 600.0, Previously Stored = 0.0, Sold = 500.0, Held = 100.0
+Product 4, Manufactured = 100.0, Previously Stored = 0.0, Sold = 100.0, Held = 0.0
+Product 5, Manufactured = 1075.0, Previously Stored = 25.0, Sold = 1000.0, Held = 100.0
+Product 6, Manufactured = 300.0, Previously Stored = 0.0, Sold = 300.0, Held = 0.0
+Product 7, Manufactured = 100.0, Previously Stored = 0.0, Sold = 0.0, Held = 100.0
+Total profit for Month 5 = 18531.2
+
+
+Month 6:
+Product 1, Manufactured = 525.0, Previously Stored = 25.0, Sold = 500.0, Held = 50.0
+Product 2, Manufactured = 537.5, Previously Stored = 12.5, Sold = 500.0, Held = 50.0
+Product 3, Manufactured = 0.0, Previously Stored = 100.0, Sold = 50.0, Held = 50.0
+Product 4, Manufactured = 350.0, Previously Stored = 0.0, Sold = 300.0, Held = 50.0
+Product 5, Manufactured = 0.0, Previously Stored = 100.0, Sold = 50.0, Held = 50.0
+Product 6, Manufactured = 550.0, Previously Stored = 0.0, Sold = 500.0, Held = 50.0
+Product 7, Manufactured = 0.0, Previously Stored = 100.0, Sold = 50.0, Held = 50.0
+Total profit for Month 6 = 14625.0
+
+Overall Total Profit (calculated manually) = £ 91995.2
+Total Profit = £ 91995.2
