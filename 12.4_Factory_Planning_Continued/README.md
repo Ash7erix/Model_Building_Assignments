@@ -1,14 +1,14 @@
 ## Additional Constraints for Machine Maintenance Scheduling
 
-9. Machine Capacity Constraints with Maintenance Scheduling (for each machine \( m \), individual machine \( n \), and month \( t \))
+9. Machine Capacity Constraints with Maintenance Scheduling
 
 $$
-\sum_{i} processingTime_{m,i} \cdot MPROD_{i,t} \leq \sum_{n} machineAvailability_{m,t} \cdot totalHoursPerMachine - \sum_{n} MDown_{m,n,t} \cdot machineAvailability_{m,t} \cdot totalHoursPerMachine
+\sum_{i} processingTime_{m,i} \cdot MPROD_{i,t} \leq \sum_{n} machineAvailability_{m,t} \cdot totalHrsPerMachine \text{ -} \sum_{n} MDown_{m,n,t} \cdot machineAvailability_{m,t} \cdot totalHrsPerMachine
 $$
 
 10. Maintenance Scheduling Constraints
-
-$$
+    
+$$ 
 \text{Each machine (except grinding machines) must undergo maintenance **exactly once** over six months.}
 $$
 $$
