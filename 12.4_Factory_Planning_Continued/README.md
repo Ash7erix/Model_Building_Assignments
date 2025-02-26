@@ -1,3 +1,5 @@
+This repository is a continuation of the Factory Planning Problem, containing additional constraints built on the previous model, which can be found [here](https://github.com/Ash7erix/Model_Building_Assignments/tree/main/12.3_Factory_Planning).
+
 ## Additional Constraints for Machine Maintenance Scheduling
 
 9. Machine Capacity Constraints with Maintenance Scheduling
