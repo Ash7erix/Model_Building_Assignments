@@ -1,0 +1,44 @@
+Total Redundant Workers: 841.80
+
+
+Recruitment Plan
+  Unskilled SemiSkilled Skilled
+1       0.0         0.0     0.0
+2       0.0  649.303557   500.0
+3       0.0  676.973684   500.0
+
+
+Available Workforce
+    Unskilled SemiSkilled Skilled
+1  1157.03125  1442.96875  1025.0
+2       675.0      2000.0  1500.0
+3       175.0      2500.0  2000.0
+
+
+
+Training & Downgrading Plan
+  UnskilledToSemi SemiToSkilled SkilledToSemi SkilledToUnskilled SemiToUnskilled
+1           200.0        256.25      168.4375                0.0             0.0
+2           200.0     80.263158           0.0                0.0             0.0
+3           200.0    131.578947           0.0                0.0             0.0
+
+Redundancy Plan
+    Unskilled SemiSkilled Skilled
+1   442.96875         0.0     0.0
+2  166.328125         0.0     0.0
+3       232.5         0.0     0.0
+
+
+Short-Time Working Plan
+  Unskilled SemiSkilled Skilled
+1      50.0        50.0    50.0
+2      50.0         0.0     0.0
+3      50.0         0.0     0.0
+
+
+Overmanning Plan
+   Unskilled SemiSkilled Skilled
+1  132.03125    17.96875     0.0
+2      150.0         0.0     0.0
+3      150.0         0.0     0.0
+

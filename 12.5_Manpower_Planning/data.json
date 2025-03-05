@@ -1,0 +1,44 @@
+{
+  "years": [1, 2, 3],
+  "skill_levels": ["Unskilled", "SemiSkilled", "Skilled"],
+  "manpower_requirements": {
+    "Unskilled": [2000, 1000, 500, 0],
+    "SemiSkilled": [1500, 1400, 2000, 2500],
+    "Skilled": [1000, 1000, 1500, 2000]
+  },
+  "wastage_rates": {
+    "less": { "Unskilled": 0.25, "SemiSkilled": 0.20, "Skilled": 0.10 },
+    "more": { "Unskilled": 0.10, "SemiSkilled": 0.05, "Skilled": 0.05 }
+  },
+  "recruitment_capacity": {
+    "Unskilled": 500,
+    "SemiSkilled": 800,
+    "Skilled": 500
+  },
+  "retraining_capacity": {
+    "UnskilledToSemi": 200,
+    "SemiToSkilled": 0.25
+  },
+  "retraining_cost": {
+    "UnskilledToSemi": 400,
+    "SemiToSkilled": 500
+  },
+  "downgrade_wastage": 0.5,
+  "redundancy_cost": {
+    "Unskilled": 200,
+    "SemiSkilled": 500,
+    "Skilled": 500
+  },
+  "overmanning_cost": {
+    "Unskilled": 1500,
+    "SemiSkilled": 2000,
+    "Skilled": 3000
+  },
+  "overmanning_limit": 150,
+  "short_time_limit": 50,
+  "short_time_cost": {
+    "Unskilled": 500,
+    "SemiSkilled": 400,
+    "Skilled": 400
+  }
+}

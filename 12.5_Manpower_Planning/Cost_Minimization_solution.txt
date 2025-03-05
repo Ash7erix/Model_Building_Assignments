@@ -1,0 +1,44 @@
+Total Cost: £498677.29
+
+
+Recruitment Plan
+  Unskilled SemiSkilled    Skilled
+1       0.0         0.0  55.555556
+2       0.0       800.0      500.0
+3       0.0       800.0      500.0
+
+
+Available Workforce
+  Unskilled SemiSkilled Skilled
+1    1000.0      1400.0  1000.0
+2     500.0      2000.0  1500.0
+3       0.0      2500.0  2000.0
+
+
+
+Training & Downgrading Plan
+  UnskilledToSemi SemiToSkilled SemiToUnskilled SkilledToUnskilled SkilledToSemi
+1             0.0           0.0            25.0                0.0           0.0
+2      142.382271    105.263158             0.0                0.0           0.0
+3       96.398892    131.578947             0.0                0.0           0.0
+
+Redundancy Plan
+    Unskilled SemiSkilled Skilled
+1       812.5         0.0     0.0
+2  257.617729         0.0     0.0
+3  353.601108         0.0     0.0
+
+
+Short-Time Working Plan
+  Unskilled SemiSkilled Skilled
+1       0.0         0.0     0.0
+2       0.0         0.0     0.0
+3       0.0         0.0     0.0
+
+
+Overmanning Plan
+  Unskilled SemiSkilled Skilled
+1       0.0         0.0     0.0
+2       0.0         0.0     0.0
+3       0.0         0.0     0.0
+
