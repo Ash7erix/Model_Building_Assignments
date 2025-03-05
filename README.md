@@ -21,5 +21,7 @@ Below are the links to the interactive Streamlit dashboards, where you can visua
 3. [Factory Planning Optimization](https://factory-planning.streamlit.app/)
 
 4. [Factory Planning Optimization(Additional Constraints)](https://factory-planning-2.streamlit.app/)
+
+5. [Manpower Planning Optimization](https://manpower-planning.streamlit.app/)
    
-5. Uploading Soon!!
+6. Uploading Soon!!
