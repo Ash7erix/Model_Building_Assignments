@@ -102,7 +102,7 @@ $$
 7. Workforce Requirement Constraints
 
 $$
-TotalWorkers_{s,t} - OvermannedWorkers_{s,t} - 0.5 \cdot ShortTimeWorkers_{s,t} = manpower_requirements_{s,t}, \quad\quad\quad \forall s \in S, \forall t \in T
+TotalWorkers_{s,t} - OvermannedWorkers_{s,t} - 0.5 \cdot ShortTimeWorkers_{s,t} = ManpowerRequirements_{s,t}, \quad\quad\quad \forall s \in S, \forall t \in T
 $$
 
 
