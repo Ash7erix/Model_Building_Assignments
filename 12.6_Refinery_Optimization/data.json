@@ -1,0 +1,104 @@
+{
+  "rawMaterials": ["CrudeOil1", "CrudeOil2"],
+  "finalProducts": ["PremiumPetrol", "RegularPetrol", "JetFuel", "FuelOil", "LubeOil"],
+  "productProfit": {
+    "PremiumPetrol": 7,
+    "RegularPetrol": 6,
+    "JetFuel": 4,
+    "FuelOil": 3.5,
+    "LubeOil": 1.5
+  },
+  "distilOutputs": ["LightNaphtha", "MediumNaphtha", "HeavyNaphtha", "LightOil", "HeavyOil", "Residuum"],
+  "reformOutputs": ["ReformedGasoline"],
+  "crackingOutputs": ["CrackedOil", "CrackedGasoline"],
+  "distilYields": {
+    "CrudeOil1_LightNaphtha": 0.1,
+    "CrudeOil1_MediumNaphtha": 0.2,
+    "CrudeOil1_HeavyNaphtha": 0.2,
+    "CrudeOil1_LightOil": 0.12,
+    "CrudeOil1_HeavyOil": 0.2,
+    "CrudeOil1_Residuum": 0.13,
+    "CrudeOil2_LightNaphtha": 0.15,
+    "CrudeOil2_MediumNaphtha": 0.25,
+    "CrudeOil2_HeavyNaphtha": 0.18,
+    "CrudeOil2_LightOil": 0.08,
+    "CrudeOil2_HeavyOil": 0.19,
+    "CrudeOil2_Residuum": 0.12
+  },
+  "reformYields": {
+    "LightNaphtha_ReformedGasoline": 0.6,
+    "MediumNaphtha_ReformedGasoline": 0.52,
+    "HeavyNaphtha_ReformedGasoline": 0.45
+  },
+  "crackingYields": {
+    "LightOil_CrackedOil": 0.68,
+    "LightOil_CrackedGasoline": 0.28,
+    "HeavyOil_CrackedOil": 0.75,
+    "HeavyOil_CrackedGasoline": 0.2
+  },
+  "propor": {
+    "LightOil": 0.5555555555555556,
+    "CrackedOil": 0.2222222222222222,
+    "HeavyOil": 0.16666666666666666,
+    "Residuum": 0.05555555555555555
+  },
+  "quality": {
+    "PremiumPetrol": 94,
+    "RegularPetrol": 84
+  },
+  "octane": {
+    "LightNaphtha": 90,
+    "MediumNaphtha": 80,
+    "HeavyNaphtha": 70,
+    "ReformedGasoline": 115,
+    "CrackedGasoline": 105
+  },
+  "pressures": {
+    "LightOil": 1.0,
+    "CrackedOil": 1.5,
+    "HeavyOil": 0.6,
+    "Residuum": 0.05
+  },
+  "used_in": {
+    "LightNaphtha": ["PremiumPetrol", "RegularPetrol", "ReformedGasoline"],
+    "MediumNaphtha": ["PremiumPetrol", "RegularPetrol", "ReformedGasoline"],
+    "HeavyNaphtha": ["PremiumPetrol", "RegularPetrol", "ReformedGasoline"],
+    "LightOil": ["Cracked", "JetFuel"],
+    "HeavyOil": ["Cracked", "JetFuel"],
+    "CrackedOil": ["JetFuel"],
+    "Residuum": ["JetFuel", "LubeOil"],
+    "CrackedGasoline": ["PremiumPetrol", "RegularPetrol"],
+    "ReformedGasoline": ["PremiumPetrol", "RegularPetrol"]
+  },
+  "used_to": [
+    ["LightNaphtha", "PremiumPetrol"],
+    ["MediumNaphtha", "PremiumPetrol"],
+    ["HeavyNaphtha", "PremiumPetrol"],
+    ["ReformedGasoline", "PremiumPetrol"],
+    ["CrackedGasoline", "PremiumPetrol"],
+    ["LightNaphtha", "RegularPetrol"],
+    ["MediumNaphtha", "RegularPetrol"],
+    ["HeavyNaphtha", "RegularPetrol"],
+    ["ReformedGasoline", "RegularPetrol"],
+    ["CrackedGasoline", "RegularPetrol"],
+    ["LightOil", "JetFuel"],
+    ["HeavyOil", "JetFuel"],
+    ["Residuum", "JetFuel"],
+    ["CrackedOil", "JetFuel"],
+    ["LightOil", "Cracked"],
+    ["HeavyOil", "Cracked"],
+    ["Residuum", "LubeOil"],
+    ["LightNaphtha", "ReformedGasoline"],
+    ["MediumNaphtha", "ReformedGasoline"],
+    ["HeavyNaphtha", "ReformedGasoline"]
+  ],
+  "ingredient": {
+    "PremiumPetrol": ["LightNaphtha", "MediumNaphtha", "HeavyNaphtha", "ReformedGasoline", "CrackedGasoline"],
+    "RegularPetrol": ["LightNaphtha", "MediumNaphtha", "HeavyNaphtha", "ReformedGasoline", "CrackedGasoline"],
+    "JetFuel": ["LightOil", "HeavyOil", "Residuum", "CrackedOil"]
+  },
+  "MaxCrudeOil1": 20000,
+  "MaxCrudeOil2": 30000,
+  "MinLubeOil": 500,
+  "MaxLubeOil": 1000
+}

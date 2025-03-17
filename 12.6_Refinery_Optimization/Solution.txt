@@ -1,0 +1,18 @@
+Profit of $ 211365.13
+Quantities of materials and final products:
+CrudeOil1            15000.0
+CrudeOil2            30000.0
+PremiumPetrol        6817.8
+RegularPetrol        17044.4
+JetFuel              15156.0
+FuelOil              0.0
+LubeOil              500.0
+LightNaphtha         6000.0
+MediumNaphtha        10500.0
+HeavyNaphtha         8400.0
+LightOil             4200.0
+HeavyOil             8700.0
+Residuum             5550.0
+ReformedGasoline     2433.1
+CrackedOil           5706.0
+CrackedGasoline      1936.0
