@@ -24,4 +24,6 @@ Below are the links to the interactive Streamlit dashboards, where you can visua
 
 5. [Manpower Planning Optimization](https://manpower-planning.streamlit.app/)
    
-6. Uploading Soon!!
+6. [Refinery Optimization](https://refinery-optimization.streamlit.app/)
+   
+7. Uploading Soon!!
