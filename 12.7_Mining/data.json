@@ -1,0 +1,55 @@
+{
+    "Mines": [
+        "MINE1",
+        "MINE2",
+        "MINE3",
+        "MINE4"
+    ],
+    "Years": [
+        "YEAR1",
+        "YEAR2",
+        "YEAR3",
+        "YEAR4",
+        "YEAR5"
+    ],
+    "Next_Year": {
+        "YEAR1": "YEAR2",
+        "YEAR2": "YEAR3",
+        "YEAR3": "YEAR4",
+        "YEAR4": "YEAR5"
+    },
+    "Royalties": {
+        "MINE1": 5000000.0,
+        "MINE2": 4000000.0,
+        "MINE3": 4000000.0,
+        "MINE4": 5000000.0
+    },
+    "Ore_Limit": {
+        "MINE1": 2000000.0,
+        "MINE2": 2500000.0,
+        "MINE3": 1300000.0,
+        "MINE4": 3000000.0
+    },
+    "Ore_Quality": {
+        "MINE1": 1.0,
+        "MINE2": 0.7,
+        "MINE3": 1.5,
+        "MINE4": 0.5
+    },
+    "Required_Quality": {
+        "YEAR1": 0.9,
+        "YEAR2": 0.8,
+        "YEAR3": 1.2,
+        "YEAR4": 0.6,
+        "YEAR5": 1.0
+    },
+    "Year_Discount": {
+        "YEAR1": 1.0,
+        "YEAR2": 0.9090909090909091,
+        "YEAR3": 0.8264462809917354,
+        "YEAR4": 0.7513148009015777,
+        "YEAR5": 0.6830134553650706
+    },
+    "Blend_Price": 10,
+    "Discount_Rate": 0.1
+}
