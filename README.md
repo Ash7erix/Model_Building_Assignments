@@ -26,4 +26,6 @@ Below are the links to the interactive Streamlit dashboards, where you can visua
    
 6. [Refinery Optimization](https://refinery-optimization.streamlit.app/)
    
-7. Uploading Soon!!
+7. [Mining Optimization](https://mining-optimization.streamlit.app/) 
+   
+8. Uploading Soon!!
