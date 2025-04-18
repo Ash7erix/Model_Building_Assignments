@@ -11,7 +11,7 @@ This repository contains solutions and model implementations for the exercises a
 - **Application Using Streamlit**: Interactive web applications built with Streamlit to visualize and interact with the mathematical models and solutions.
   
 
-## Streamlit Dashboards:
+## Streamlit Webapps:
 Below are the links to the interactive Streamlit dashboards, where you can visualize and interact with the optimization models and solutions:
 
 1. [Food Manufacture Optimization](https://food-manufacture.streamlit.app/)
